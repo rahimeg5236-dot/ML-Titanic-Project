@@ -4,11 +4,13 @@
 # 🚢 Titanic Survival Predictor
 ### *Uncovering the secrets of the most famous shipwreck*
 
-[![Python](https://img.shields.io)](https://www.python.org)
-[![Scikit-Learn](https://img.shields.io)](https://scikit-learn.org)
-[![Kaggle](https://img.shields.io)](https://www.kaggle.com)
-[![Status](https://img.shields.io)](https://github.com)
+[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org)
 
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org)
+
+[![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com)
+
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com)
 ---
 
 <p align="left">
