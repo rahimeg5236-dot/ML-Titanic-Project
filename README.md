@@ -4,7 +4,7 @@
 # 🚢 Titanic Survival Predictor
 ### *Uncovering the secrets of the most famous shipwreck*
 
-[![Python]([https://img.shields.io])](https://www.python.org)
+[![Python](https://www.python.org)
 [![Scikit-Learn](https://img.shields.io)](https://scikit-learn.org)
 [![Kaggle](https://img.shields.io)](https://www.kaggle.com)
 [![Status](https://img.shields.io)](https://github.com)
