@@ -4,7 +4,8 @@
 # 🚢 Titanic Survival Predictor
 ### *Uncovering the secrets of the most famous shipwreck*
 
-[![Python]([https://img.shields.io](https://www.facebook.com/EgyptFOSSOrg/posts/%D8%AA%D8%B9%D8%B1%D9%81-%D8%B9%D9%84%D9%89-github%D8%AC%D9%8A%D8%AA-%D9%87%D8%A7%D8%A8-%D9%88%D9%87%D9%8A-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D8%B3%D8%AA%D8%B6%D8%A7%D9%81%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D8%A8%D9%83%D8%A9-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D9%84%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D9%81%D9%8A-%D8%A7%D9%84%D8%A5%D8%B5%D8%AF%D8%A7%D8%B1-%D8%A8%D8%A7%D8%B3%D8%AA/973278996342243/))](https://www.python.org)
+[![Python]([https://img.shields.io]<img width="300" height="168" alt="image" src="https://github.com/user-attachments/assets/401b0149-e7d7-4a66-acfe-517e66bdc8cf" />
+))](https://www.python.org)
 [![Scikit-Learn](https://img.shields.io)](https://scikit-learn.org)
 [![Kaggle](https://img.shields.io)](https://www.kaggle.com)
 [![Status](https://img.shields.io)](https://github.com)
