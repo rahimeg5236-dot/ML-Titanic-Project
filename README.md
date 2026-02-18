@@ -1,11 +1,16 @@
 # ML-Titanic-Project
+
 <div align="center">
 
 # 🚢 Titanic Survival Predictor
 ### *Uncovering the secrets of the most famous shipwreck*
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org) [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)](https://scikit-learn.org) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-blue?logo=kaggle)](https://www.kaggle.com)
-
+<!-- Modern Professional Badges -->
+[![Python](https://img.shields.io)](https://www.python.org)
+[![Scikit-Learn](https://img.shields.io)](https://scikit-learn.org)
+[![Kaggle](https://img.shields.io)](https://www.kaggle.com)
+[![License-MIT](https://img.shields.io)](https://opensource.org)
+[![Status-Active](https://img.shields.io)](https://github.com)
 
 ---
 
@@ -20,7 +25,7 @@
 
 ## 🔍 نظرة سريعة
 *   **الهدف:** بناء نموذج تصنيف (Classification) بدقة عالية.
-*   **البيانات:** مجموعة بيانات [Kaggle Titanic](https://www.kaggle.com/data).
+*   **البيانات:** مجموعة بيانات [Kaggle Titanic](https://www.kaggle.com).
 *   **الخوارزمية:** تم استخدام **Random Forest Classifier** كونه الأفضل في التعامل مع الميزات المتنوعة.
 
 ## 🛠️ الأدوات المستخدمة
@@ -39,60 +44,10 @@
 ## 🚀 كيفية التشغيل
 ```bash
 # 1. استنساخ المشروع
-git clone https://github.comyour-username/titanic-project.git
+git clone https://github.com
 
 # 2. تثبيت المكتبات
 pip install -r requirements.txt
 
 # 3. تشغيل الكود
 python main.py
-### 2️⃣ كود المشروع (Clean & Professional Code)
-هذا الكود مكتوب بأسلوب "Production-Ready" ومنظم بشكل يبهر أي مبرمج يراه:
-
-```python
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, classification_report
-
-# 1. تحميل البيانات
-def load_data():
-    # تأكد من تحميل الملفات من كاجل أو وضعها في نفس المجلد
-    train = pd.read_csv('train.csv')
-    return train
-
-# 2. تنظيف البيانات (Feature Engineering)
-def preprocess_data(df):
-    # ملء القيم المفقودة
-    df['Age'] = df['Age'].fillna(df['Age'].median())
-    df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])
-    
-    # تحويل البيانات النصية لأرقام
-    df['Sex'] = df['Sex'].map({'female': 1, 'male': 0})
-    
-    # اختيار الميزات المهمة فقط
-    features = ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare']
-    return df[features], df['Survived']
-
-# 3. التدريب والتقييم
-if __name__ == "__main__":
-    print("🚢 بدأت عملية تحليل بيانات تايتانيك...")
-    
-    data = load_data()
-    X, y = preprocess_data(data)
-    
-    # تقسيم البيانات
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    
-    # بناء النموذج (Random Forest)
-    model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
-    model.fit(X_train, y_train)
-    
-    # النتائج
-    predictions = model.predict(X_test)
-    acc = accuracy_score(y_test, predictions)
-    
-    print(f"✅ تم التدريب بنجاح! الدقة المحققة: {acc:.2%}")
-    print("\n--- تقرير التصنيف ---")
-    print(classification_report(y_test, predictions))
